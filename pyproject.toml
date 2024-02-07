@@ -1,0 +1,152 @@
+# ******************************************************************************
+#
+# ptdata, periodic table data sets
+#
+# Copyright 2024 Jeremy A Gray <gray@flyquackswim.com>.
+#
+# All rights reserved.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# ******************************************************************************
+
+[build-system]
+
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bandit.assert_used]
+
+exclude_dirs = [
+  ".git",
+  ".pytest_cache",
+  ".tox",
+  ".venv",
+  "dist",
+  "docs",
+  "htmlcov",
+  "ptdata.egg-info",
+]
+
+skips = [
+  "**/test_*.py",
+]
+
+[tool.black]
+
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+    \.git
+    | \.pytest_cache
+    | __pycache__
+    | htmlcov
+  )/
+)
+'''
+
+[tool.isort]
+
+ensure_newline_before_comments = true
+force_single_line = true
+include_trailing_comma = true
+line_length = 88
+multi_line_output = 3
+use_parentheses = true
+
+[tool.pccc]
+
+header_length = 50
+body_length = 72
+wrap = true
+force_wrap = true
+spell_check = false
+repair = false
+ignore_generated_commits = false
+
+types = [
+  "depends",
+  "doc",
+  "feat",
+  "fix",
+  "perf",
+  "refactor",
+  "release",
+  "style",
+  "test",
+]
+
+scopes = [
+  "ptdata",
+  "tooling",
+]
+
+footers = [
+  "github-closes",
+  "signed-off-by",
+]
+
+required_footers = [
+  "signed-off-by",
+]
+
+[tool.poetry]
+
+
+authors = [
+  "Jeremy A Gray <gray@flyquackswim.com>",
+]
+description = "periodic table data sets"
+name = "ptdata"
+version = "0.0.1"
+license = "GPL-3.0-or-later"
+maintainers = [
+  "Jeremy A Gray <gray@flyquackswim.com>",
+]
+readme = "README.rst"
+homepage = "https://github.com/jeremyagray/ptdata"
+repository = "https://github.com/jeremyagray/ptdata"
+
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+packages = [
+  { include = "ptdata" },
+]
+
+[tool.poetry.dependencies]
+
+python = ">=3.8.1,<4.0"
+mpmath = "^1"
+
+[tool.poetry.group.dev.dependencies]
+
+Sphinx = "^7"
+black = "^23"
+flake8 = "^6"
+flake8-docstrings = "^1"
+isort = "^5"
+pccc = "^0"
+pre-commit = "^3"
+pytest = "^7"
+pytest-cov = "^4"
+tox = "^4"
+
+[tool.poetry.urls]
+
+"Issues" = "https://github.com/jeremyagray/ptdata/issues"
+"Documentation" = "https://ptdata.readthedocs.io/"
+"Repository" = "https://github.com/jeremyagray/ptdata"

@@ -1,0 +1,28 @@
+# ******************************************************************************
+#
+# ptdata, periodic table data sets
+#
+# Copyright 2024 Jeremy A Gray <gray@flyquackswim.com>.
+#
+# All rights reserved.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# ******************************************************************************
+
+[flake8]
+
+extend-ignore =
+    E203,
+    W503
+
+per-file-ignores =
+    __init__.py: F401
+
+exclude =
+    .git,
+    .tox,
+    __pycache__,
+
+max-complexity = 20
+max-line-length = 88
