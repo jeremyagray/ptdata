@@ -1,14 +1,14 @@
-.. *****************************************************************************
+.. ***************************************************************************
 ..
-.. sigcalc, significant figures calculations
+.. ptdata, periodic table data sets
 ..
-.. Copyright 2023-2024 Jeremy A Gray <gray@flyquackswim.com>.
+.. Copyright 2024 Jeremy A Gray <gray@flyquackswim.com>.
 ..
 .. All rights reserved.
 ..
 .. SPDX-License-Identifier: GPL-3.0-or-later
 ..
-.. *****************************************************************************
+.. ***************************************************************************
 
 ======
 README
