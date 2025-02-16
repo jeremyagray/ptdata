@@ -2,7 +2,7 @@
 ..
 .. ptdata, periodic table data sets
 ..
-.. Copyright 2024 Jeremy A Gray <gray@flyquackswim.com>.
+.. Copyright 2024-2025 Jeremy A Gray <gray@flyquackswim.com>.
 ..
 .. All rights reserved.
 ..
@@ -48,7 +48,7 @@ SPDX-License-Identifier: `GPL-3.0-or-later <https://spdx.org/licenses/GPL-3.0-or
 
 ptdata, periodic table data sets
 
-Copyright (C) 2024 `Jeremy A Gray <gray@flyquackswim.com>`_.
+Copyright (C) 2024-2025 `Jeremy A Gray <gray@flyquackswim.com>`_.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
