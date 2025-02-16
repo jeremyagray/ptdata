@@ -2,7 +2,7 @@
 #
 # ptdata, periodic table data sets
 #
-# Copyright 2024 Jeremy A Gray <gray@flyquackswim.com>.
+# Copyright 2024-2025 Jeremy A Gray <gray@flyquackswim.com>.
 #
 # All rights reserved.
 #
@@ -13,7 +13,7 @@
 ---
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: check-ast
@@ -26,18 +26,18 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/psf/black
-    rev: 24.8.0
+    rev: 25.1.0
     hooks:
       - id: black
         language_version: python3
 
   - repo: https://github.com/pycqa/flake8
-    rev: 7.1.1
+    rev: 7.1.2
     hooks:
       - id: flake8
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+    rev: 6.0.0
     hooks:
       - id: isort
 
@@ -47,7 +47,7 @@ repos:
       - id: pydocstyle
 
   - repo: https://github.com/pycqa/bandit
-    rev: 1.7.9
+    rev: 1.8.2
     hooks:
       - id: bandit
         args: ["--config", "pyproject.toml"]
