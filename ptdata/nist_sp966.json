@@ -261,8 +261,8 @@
     "ec": "1s2 2s2 2p6 3s2 3p6",
     "ec_aufbau": "1s2 2s2 2p6 3s2 3p6",
     "period": "3",
-    "mass_str": "39.948",
-    "mass": 39.948,
+    "mass_str": "39.95",
+    "mass": 39.95,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
     "ionization": 15.7596,
@@ -678,15 +678,15 @@
     "symbol": "Pd",
     "number": "46",
     "name": "Palladium",
-    "ec": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d9",
+    "ec": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 4d10",
     "ec_aufbau": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d8",
     "period": "5",
     "mass_str": "106.42",
     "mass": 106.42,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
-    "ionization": 8.3369,
-    "ionization_str": "8.3369",
+    "ionization": 8.3368,
+    "ionization_str": "8.3368",
     "ionization_unit": "eV"
   },
   "Ag": {
@@ -775,8 +775,8 @@
     "mass": 127.6,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
-    "ionization": 9.0097,
-    "ionization_str": "9.0097",
+    "ionization": 9.0098,
+    "ionization_str": "9.0098",
     "ionization_unit": "eV"
   },
   "I": {
@@ -790,8 +790,8 @@
     "mass": 126.9,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
-    "ionization": 10.4513,
-    "ionization_str": "10.4513",
+    "ionization": 10.4512,
+    "ionization_str": "10.4512",
     "ionization_unit": "eV"
   },
   "Xe": {
@@ -910,8 +910,8 @@
     "mass": 145,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 5.577,
-    "ionization_str": "5.577",
+    "ionization": 5.5819,
+    "ionization_str": "5.5819",
     "ionization_unit": "eV"
   },
   "Sm": {
@@ -1030,8 +1030,8 @@
     "mass": 168.93,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
-    "ionization": 6.1843,
-    "ionization_str": "6.1843",
+    "ionization": 6.1844,
+    "ionization_str": "6.1844",
     "ionization_unit": "eV"
   },
   "Yb": {
@@ -1105,8 +1105,8 @@
     "mass": 183.84,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
-    "ionization": 6.864,
-    "ionization_str": "6.8640",
+    "ionization": 7.864,
+    "ionization_str": "7.8640",
     "ionization_unit": "eV"
   },
   "Re": {
@@ -1120,8 +1120,8 @@
     "mass": 186.21,
     "mass_approx": false,
     "mass_unit": "g mol^-1",
-    "ionization": 6.8335,
-    "ionization_str": "6.8335",
+    "ionization": 7.8335,
+    "ionization_str": "7.8335",
     "ionization_unit": "eV"
   },
   "Os": {
@@ -1255,8 +1255,8 @@
     "mass": 209,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 8.414,
-    "ionization_str": "8.414",
+    "ionization": 8.4181,
+    "ionization_str": "8.4181",
     "ionization_unit": "eV"
   },
   "At": {
@@ -1435,8 +1435,8 @@
     "mass": 247,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 5.9914,
-    "ionization_str": "5.9914",
+    "ionization": 5.9922,
+    "ionization_str": "5.9922",
     "ionization_unit": "eV"
   },
   "Bk": {
@@ -1450,8 +1450,8 @@
     "mass": 247,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 6.1978,
-    "ionization_str": "6.1978",
+    "ionization": 6.1979,
+    "ionization_str": "6.1979",
     "ionization_unit": "eV"
   },
   "Cf": {
@@ -1465,8 +1465,8 @@
     "mass": 251,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 6.2817,
-    "ionization_str": "6.2817",
+    "ionization": 6.2819,
+    "ionization_str": "6.2819",
     "ionization_unit": "eV"
   },
   "Es": {
@@ -1480,8 +1480,8 @@
     "mass": 252,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 6.3676,
-    "ionization_str": "6.3676",
+    "ionization": 6.3684,
+    "ionization_str": "6.3684",
     "ionization_unit": "eV"
   },
   "Fm": {
@@ -1525,8 +1525,8 @@
     "mass": 259,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
-    "ionization": 6.66,
-    "ionization_str": "6.66",
+    "ionization": 6.6262,
+    "ionization_str": "6.6262",
     "ionization_unit": "eV"
   },
   "Lr": {
@@ -1536,8 +1536,8 @@
     "ec": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 7p1",
     "ec_aufbau": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d1",
     "period": "7",
-    "mass_str": "266",
-    "mass": 266,
+    "mass_str": "262",
+    "mass": 262,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
     "ionization": 4.96,
@@ -1626,8 +1626,8 @@
     "ec": "",
     "ec_aufbau": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d7",
     "period": "7",
-    "mass_str": "278",
-    "mass": 278,
+    "mass_str": "277",
+    "mass": 277,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
     "ionization": null,
@@ -1701,8 +1701,8 @@
     "ec": "",
     "ec_aufbau": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p2",
     "period": "7",
-    "mass_str": "289",
-    "mass": 289,
+    "mass_str": "290",
+    "mass": 290,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
     "ionization": null,
@@ -1716,8 +1716,8 @@
     "ec": "",
     "ec_aufbau": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p3",
     "period": "7",
-    "mass_str": "289",
-    "mass": 289,
+    "mass_str": "290",
+    "mass": 290,
     "mass_approx": true,
     "mass_unit": "g mol^-1",
     "ionization": null,
