@@ -51,37 +51,6 @@ shells = {
 }
 
 
-def _ec_to_period(ec):
-    """Return the period for electron configuration ``ec``."""
-    last = ec.strip().split(" ")[-1:][0]
-
-    if len(last) > 2:
-        last = last[0:2]
-
-    for period, conf in shells.items():
-        if last in conf:
-            return period
-
-
-def _ec_to_group(ec):
-    """Return the group for electron configuration ``ec``."""
-    period = _ec_to_period(ec)
-
-    if period == 1:
-        return 1 if ec == "1s1" else 18
-    elif period == 2 or period == 3:
-        pass
-    elif period == 4 or period == 5:
-        pass
-    elif period == 6 or period == 7:
-        if f"{period}s1" in ec:
-            return 1
-        elif f"{period}s2" in ec:
-            return 2
-        else:
-            pass
-
-
 def _load_nist_sp966():
     """Load the NIST SP966 periodic table data."""
     files = [
@@ -122,7 +91,6 @@ def _load_nist_sp966():
             "name": str(data["names"][num - 1]),
             "ec": str(data["ec"][num - 1]),
             "ec_aufbau": str(data["ec_aufbau"][num - 1]),
-            "period": str(_ec_to_period(data["ec_aufbau"][num - 1])),
         }
 
         mass = re.match(r"\[([0-9]+)\]", data["mass"][num - 1])
